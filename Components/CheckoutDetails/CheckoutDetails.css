@@ -1,0 +1,665 @@
+
+.website-2.checkout-package-area {
+    margin: 56px 120px 80px 120px;
+}
+
+.checkout-product-area h1 {
+    padding-bottom: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.products-area {
+    display: flex;
+    align-items: flex-end;
+}
+
+.boosternt-wifi {
+    -webkit-flex: 1;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0 0 0 / 5%);
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.single-product-title {
+    padding: 24px 50px 8px;
+    text-align: center;
+}
+
+.boosternt-wifi h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    max-width: 270px;
+}
+
+.checkout-product-span {
+    color: #5E5E5E;
+    text-align: center;
+}
+
+.boosternt-wifi p {
+    text-align: center;
+}
+
+.checkout-product-img {
+    text-align: center;
+}
+
+.checkout-product-img img {
+    height: 154px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.checkout-product-price span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #282828;
+    text-align: center;
+}
+
+.black-span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282828;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.boosternt-wifi h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282828;
+    text-align: center;
+}
+
+.red-span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF0000;
+    text-align: center;
+}
+
+.boosternt-wifi .total-price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282828;
+    text-align: center;
+}
+
+.free-shipping {
+    background: #ECEBED;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    padding: 12px 0;
+    justify-content: center;
+}
+
+.shipping {
+    margin-right: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #282828;
+}
+
+.free-shipping img {
+    padding-right: 12px;
+}
+
+.disc-div {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #282828;
+}
+
+
+.checkout-product-area ul {
+    list-style-type: none;
+}
+
+.best-seller-product {
+    background: #282828;
+    border-radius: 8px 8px 0 0;
+}
+
+.best-seller-product p {
+    padding: 13px 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #E0BB24;
+    margin: 0;
+}
+
+.website-2.checkout-package-area .boosternt-wifi.best-seller {
+    border: 1px solid black;
+}
+
+.activeeee {
+    background-color: red;
+}
+
+.website-2.checkout-form-group {
+    margin: 120px;
+    overflow: hidden;
+}
+
+.checkout-title-area h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 0;
+    margin: 0;
+}
+
+.checkout-signing-info {
+    overflow-y: clip;
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 0 24px;
+    grid-template-columns: 1fr 533px;
+    margin-top: 40px;
+}
+
+.information-area {
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.information-complete-area {
+    padding: 32px 24px;
+}
+
+.form-group {
+    width: 100%;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.checkout-form-group label {
+    margin-bottom: 16px !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.form-group.required label:after {
+    content: "*";
+    color: #FF0000;
+}
+
+.form-control {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    border-radius: 24px;
+    padding: 10px 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    height: 48px !important;
+}
+
+.order-summary {
+    background: #FFFFFF;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 24px 24px 16px 24px;
+    margin-bottom: 24px;
+}
+
+.order-summary h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.order-summary-list li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ECEBED;
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+
+.delete-deal-btn {
+    color: #282828;
+    margin-right: 6px;
+}
+.delete-deal-btn:hover {
+    color: red;
+}
+
+.text-bold-left {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #282828;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.order-summary.coupon-block {
+    margin-bottom: 0;
+}
+
+.yellow-placeorder {
+    margin-left: -43px;
+    padding: 11px 35px;
+    background: #FCE53F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #282828;
+    border: none;
+    border-radius: 56px;
+}
+
+.checkout-guarantee-area {
+    margin-top: 56px;
+}
+
+.guarantee-area {
+    padding-top: 32px;
+}
+
+.checkkout-guarantee-text {
+    background: #FFFFFF;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 24px 24px 32px 24px;
+    margin-bottom: 16px;
+}
+
+.checkkout-guarantee-text h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+.checkout-guarantee-content {
+    display: flex;
+    align-items: center;
+}
+
+.checkout-guarantee-content p {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.checkout-guarantee-content img {
+    width: 108px;
+    height: 108px;
+}
+
+.checkout-div-sticky {
+    top: 75px;
+}
+
+
+.bonus-deal-full-area {
+    margin-top: 64px;
+}
+
+.bonus-deal-products-area {
+    background: #F4F4F4;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    z-index: 0;
+    position: relative;
+    padding: 44px 24px 24px 24px;
+}
+
+.bonus-deal-text-part {
+    background: #282828;
+    border-radius: 8px;
+    width: 240px;
+    z-index: 2 !important;
+    margin-bottom: -30px;
+    position: relative;
+    text-align: center;
+}
+
+.bonus-deal-text-part h5 {
+    color: #FEC600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 60px;
+}
+
+.bonus-deal-products-area {
+    display: flex;
+    grid-gap: 0 32px;
+}
+
+.bonus-deal-image-area {
+    display: flex;
+    padding-top: 16px;
+    grid-gap: 0 24px;
+}
+
+.bonus-deal-singl-product {
+    width: 160px;
+    height: 160px;
+}
+
+.bonus-deal-singl-product img {
+    max-height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.bonus-deal-products-check .header-title-h5 {
+    font-size: 18px;
+    color: #282828;
+    text-align: left;
+    padding-bottom: 14px;
+}
+
+.single-product-select-part {
+    display: flex;
+    grid-gap: 0 20px;
+}
+
+.products-near-box {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.products-near-box.selected {
+    background: #FFFFFF;
+    border: 1px solid #282828;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.product-check-area-full {
+    display: flex;
+    grid-gap: 0 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.product-check-area {
+    width: 60px;
+    height: 60px;
+}
+
+.product-check-area img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.product-name-part-mob {
+    display: none;
+}
+
+.product-price-area {
+    padding: 8px;
+}
+
+.bonus-deal-full-area .product-price-area p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.product-price-area del {
+    display: block;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FF0000;
+}
+
+.product-price-area .checkbox-input [type=radio] {
+    display: none;
+}
+
+.checkmark {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #869293;
+    border-radius: 2px;
+}
+
+.checkmark-select {
+    background: #282828 !important;
+    color: white !important;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+}
+
+.checkmark::after {
+    font-size: 8px;
+    font-family: "Font Awesome 6 Free";
+    content: "\f00c";
+    font-weight: 900;
+    position: absolute;
+    top: -5px;
+    left: 4px;
+}
+
+.product-name-part {
+    padding: 12px 6px 18px;
+    text-align: center;
+}
+
+.website-2.checkout-form-group .bonus-deal-full-area .product-name-part p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.media-price-part {
+    display: flex;
+    align-items: flex-end;
+}
+
+.product-price-part-mob {
+    display: none;
+}
+
+.bonus-deal-full-area .product-price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 44px;
+}
+
+.bonus-deal-full-area .price-list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 44px;
+}
+
+.bonus-deal-full-area .save-price-area {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FF0000;
+    margin-right: 8px;
+}
+
+
+.website-2.checkout-form-group .bonus-deal-full-area .price-part-second {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+}
+
+.bonus-deal-single-product {
+    display: none;
+}
+
+.product-count {
+    display: flex;
+    grid-gap: 0 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-text-part {
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 22px !important;
+}
+
+.count-part-area {
+    white-space: nowrap;
+    display: flex;
+}
+
+.bonus-deal-full-area .button-count {
+    background: #FFFFFF;
+    border-radius: 8px 0 0 8px;
+    border: 0;
+    width: 26px;
+    height: 40px;
+    outline: 0;
+}
+
+.button-count.plus {
+    border-radius: 0 8px 8px 0;
+    border: 0 !important;
+}
+
+.bonus-deal-full-area .number-product {
+    background: #FFFFFF;
+    border: 0 !important;
+    width: 60px;
+    height: 40px !important;
+    text-align: center;
+    border-radius: 0 !important;
+    box-shadow: unset !important;
+    padding: 0 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.product-price-part {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.product-price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.product-price-part .price-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 8px;
+}
+
+.price-list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.save-price-area {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FF0000;
+    margin-right: 8px;
+}
+
+.price-part-second {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+}
+
+.product-shop-area {
+    text-align: center;
+    padding: 14px 0;
+}
+
+.product-shop-area .btn-primary {
+    font-size: 12px;
+    padding: 8px 14px;
+    white-space: nowrap;
+    max-width: 140px;
+}
+.coupon-error {
+    font-weight: 600 !important;
+    margin-top: 12px !important;
+    color: red !important;
+    font-size: 14px !important;
+}
+.coupon-success {
+    font-weight: 600 !important;
+    margin-top: 12px !important;
+    color: #1a5221 !important;
+    font-size: 14px !important;
+}

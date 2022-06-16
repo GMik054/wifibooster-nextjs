@@ -1,0 +1,927 @@
+.header-new-product-design {
+    background-image: url(https://www.prorepeater.com/public/images/white-brick-wall-textures-background%202.svg);
+    background-size: 100%;
+    margin: unset;
+    padding-bottom: 64px;
+}
+
+.website-2.header-product-area-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.product-area {
+    width: 570px;
+}
+
+.header-title-h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 60px;
+    color: #282828;
+}
+
+.product-area p {
+    margin-top: 6px;
+    padding-bottom: 24px;
+}
+
+.product-area ul {
+    padding-left: 26px;
+    list-style-type: none;
+    display: block !important;
+    height: unset !important;
+}
+
+.product-area ul li {
+    padding-bottom: 8px !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    position: relative;
+}
+
+.product-area ul li::before {
+    border-radius: 50%;
+    content: "";
+    display: inline-block !important;
+    width: 8px;
+    height: 8px;
+    background: #869293;
+    position: absolute;
+    left: -26px;
+    top: 9px;
+}
+
+.product-area-shop {
+    display: flex;
+    grid-gap: 0 20px;
+    padding-top: 32px;
+}
+
+.product-area-secure {
+    background: #F4F4F4;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 13px 4px 18px;
+}
+
+.secure-checkout-img {
+    display: flex;
+    align-items: center;
+}
+
+.product-area-secure img {
+    width: 12px;
+    height: 16px;
+    margin-right: 10px !important;
+    object-fit: contain;
+}
+
+.website-2.header-product-area-2 .product-area-secure span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282828;
+}
+
+.btn-primary {
+    width: 342px;
+    padding: 14px 86px;
+    white-space: nowrap;
+    background: #FEC600;
+    border-radius: 56px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    box-shadow: unset !important;
+    color: #282828;
+    border: 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #282828 !important;
+    color: #FEC600 !important;
+    transition: all .2s;
+}
+
+.btn-primary:active {
+    color: #FEC600 !important;
+    background-color: #282828;
+}
+
+.btn-primary:focus {
+    color: #FEC600 !important;
+    background-color: #282828;
+}
+
+.product-area-item img {
+    max-width: 550px;
+    max-height: 410px;
+    object-fit: contain;
+}
+
+.verified-div {
+    max-width: 1150px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px 32px;
+    margin: 0 auto 10px;
+}
+
+.verified-div.bottom {
+    max-width: none;
+    margin: 0 0 10px;
+}
+
+.reviewed-div-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewed-div-all-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewed-imgreviewed-img img {
+    height: 56px;
+    margin-right: 16px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.header-new-product-design .reviewed-text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.reviewed-text span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #41BBEF;
+}
+
+.reviewed-text img {
+    height: 16px;
+    width: 16px;
+    margin: 0 8px 0 16px;
+}
+
+.review-date-text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.review-long-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    padding-top: 18px;
+    color: #282828;
+    width: 100%;
+}
+
+.website-2.info-area {
+    background: #282828 !important;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.info-booster {
+    text-align: center !important;
+    width: 100%;
+}
+
+.info-booster h5 {
+    padding: 12px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.website-2.delivery-area {
+    background: #F4F4F4;
+}
+
+.delivery-all-products {
+    padding: 80px 210px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    grid-gap: 0 32px;
+}
+
+.single-delivery-area img {
+    padding-bottom: 30px;
+}
+
+.single-delivery-area h6 {
+    padding-bottom: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #282828;
+    margin: 0;
+}
+
+.single-delivery-area p {
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 286px;
+    font-weight: normal;
+}
+
+.guarantee-zone {
+    margin: 60px 90px;
+    border-radius: 10px;
+    background-size: auto 266px;
+    background: #282828 url(https://www.prorepeater.com/public/images/Picture.svg) no-repeat calc(100% - 40px);
+}
+
+.guarantee-all-section {
+    display: flex;
+    padding: 24px 48px;
+    grid-gap: 0 40px;
+}
+
+.guarantee-text-area {
+    max-width: 556px;
+    padding-top: 16px;
+}
+
+.header-title-h5 {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.guarantee-all-section p {
+    color: #FFFFFF;
+}
+
+.booster-feature-area {
+    margin: 0 136px 80px;
+}
+
+.booster-feature-text {
+    text-align: center;
+}
+
+.booster-feature-text h2 {
+    padding-bottom: 10px;
+}
+
+.website-2.video-area {
+    margin-top: 66px;
+    margin-bottom: 50px;
+}
+
+.video-position {
+    text-align: center;
+}
+
+.video-position video {
+    max-width: 962px;
+    width: 100%;
+    height: auto !important;
+}
+
+.header-title-h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 60px;
+    color: #282828;
+}
+
+.booster-text-zone {
+    font-weight: normal;
+    color: #282828;
+    width: 570px;
+    margin: auto;
+    padding-bottom: 32px;
+}
+
+.booster-all-area {
+    grid-gap: 32px 0;
+}
+
+.single-booster-part {
+    display: flex;
+    display: -webkit-flex;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0 0 0 / 5%);
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.booster-img-area {
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.single-booster-part img {
+    object-fit: contain;
+    width: 64px;
+    max-height: 100%;
+    display: block;
+    height: 64px;
+}
+
+.booster-text-area {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.booster-text-area h6 {
+    text-align: left;
+    padding-bottom: 4px;
+}
+
+.booster-text-area p {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: normal;
+    display: block;
+}
+
+.website-2.two-half-sections-area {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.shipping-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 14%;
+    background-image: url(https://www.prorepeater.com/public/images/Yellow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 52%;
+    height: 80px;
+}
+
+.shipping-area-text {
+    display: flex;
+    align-items: center;
+}
+
+.shipping-car {
+    position: relative;
+    z-index: 1;
+    margin-right: 36px;
+}
+
+.snow-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.main-icon {
+    height: 40px;
+}
+
+.shipping-area-text h5 {
+    font-weight: 600;
+    color: #282828;
+    margin: 0;
+}
+
+.discount-area {
+    transform: rotate(-180deg);
+    position: relative;
+    margin-left: -3%;
+    top: 8px;
+    padding-right: 14%;
+    background-image: url(https://www.prorepeater.com/public/images/Blue.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 52%;
+    height: 64px;
+    z-index: 5 !important;
+}
+
+.discount-area-text {
+    display: flex;
+    align-items: center;
+    transform: rotate(-180deg);
+    height: 100%;
+}
+
+.shipping-discount {
+    position: relative;
+    z-index: 1;
+    margin-right: 36px;
+}
+
+.snow-img-two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.discount-area h5 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.review {
+    padding: 40px 140px 20px;
+    background: #F9F9F9;
+}
+
+.section_title {
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: #282828;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.home_section_div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.home_section_div h2 {
+    padding-bottom: 24px;
+    font-weight: 600;
+}
+
+.home_section_div h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+
+.home_section_div ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rating-div ul > li {
+    margin-bottom: 16px;
+}
+
+.five-stars-div {
+    display: flex;
+}
+
+.stars-span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.progress-star {
+    width: 160px;
+    height: 8px;
+    background: #E6E8E9;
+    border-radius: 8px;
+    margin: auto 8px;
+}
+
+.progress-filled {
+    background: #0D2427;
+    border-radius: 8px;
+    height: 8px;
+}
+
+.customer-reviews .percent-span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.RewWrap {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.reviews_container {
+    text-align: center;
+}
+
+.Rew1Title {
+    text-align: left;
+    color: #0F2541;
+}
+
+.num-stars {
+    display: flex;
+    margin-bottom: 8px;
+    align-items: baseline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.num-stars p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282828;
+    margin: 0;
+}
+
+.rating-star-parent {
+    background-image: url(https://www.prorepeater.com/public/images/star-empty.svg);
+    background-size: auto 16px;
+    width: 85px;
+    height: 16px;
+    margin-left: 8px;
+
+}
+
+.rating-star-procent {
+    background-image: url(https://www.prorepeater.com/public/images/Star.svg);
+    background-size: auto 17px;
+    height: 106%;
+}
+
+.ratings-text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282828;
+    margin: 0;
+}
+
+.rating-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 280px;
+}
+
+.btn-white {
+    width: 242px;
+    margin-bottom: 16px;
+    padding: 8px 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background: #f9f9f9 !important;
+    border-radius: 50px;
+    appearance: none;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn-white:hover {
+    background: #282828;
+    color: #fec600 !important;
+    transition: all .2s;
+}
+
+.full-reviews-div {
+    margin-bottom: 50px;
+}
+
+.reviews-questions {
+    margin-bottom: 40px;
+}
+
+.reviews-questions-modal {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.rev-button.active {
+    font-weight: 500;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #fce53f;
+}
+
+.rev-button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-right: 88px;
+    color: #282828;
+}
+
+.reviews_content_container {
+    margin-bottom: 56px;
+}
+
+.reviews_content {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px 32px;
+    margin-bottom: 24px;
+}
+
+.rev_customer_name {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 17px;
+    color: #0F2541;
+}
+
+.rev_customer_name span {
+    display: inline-flex;
+    align-items: center;
+    color: grey;
+    font-size: 13px;
+    background: #e1ffe0;
+
+}
+
+.verified-buyer {
+    margin-left: 4px;
+}
+
+.rev_count_stars_img {
+    display: block;
+    width: 75px;
+    height: 15px;
+    margin: 0;
+    background: url(https://www.boosternet.co.uk/public/img/reviewsStars-small.png) left bottom repeat-x;
+}
+
+.rev_count_stars_img span {
+    display: block;
+    height: 15px;
+    background: url(https://www.boosternet.co.uk/public/img/reviewsStars-small.png) left top repeat-x;
+}
+
+.rev_comment {
+    margin-top: 14px;
+    font-size: 17px;
+    line-height: 123%;
+    color: #3A3A3A;
+}
+
+/*.show {*/
+/*    margin-top: 5px;*/
+/*    font-size: 15px;*/
+/*    color: #007bff;*/
+/*    text-decoration: none;*/
+/*    background-color: transparent;*/
+/*}*/
+
+.show-more {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #282828;
+}
+
+.website-2.ask-question-area {
+    margin: 60px 130px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.accordion-div {
+    padding-top: 30px;
+}
+
+.card-div {
+    background: #FFFFFF !important;
+    box-shadow: 0 4px 8px rgba(0 0 0 / 5%) !important;
+    border-radius: 8px;
+    border: none !important;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.card-header {
+    background: #FFFFFF !important;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    border: none !important;
+    position: relative !important;
+    padding: 13px 24px !important;
+    cursor: pointer !important;
+}
+
+.card-body {
+    padding: 13px 24px;
+}
+
+.website-2.discount-time-area {
+    text-align: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.discount-image-area {
+    margin-top: 20px;
+}
+
+.discount-image-area img {
+    height: 200px;
+    object-fit: contain;
+    position: relative;
+    z-index: 96;
+}
+
+.discount-image-area p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FF0000;
+    max-width: 91px;
+    position: absolute;
+    top: 42%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.each-price-part {
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    line-height: 48px !important;
+    color: #282828 !important;
+    padding-top: 42px;
+}
+
+.each-price-part span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 8px;
+}
+
+.website-2.discount-time-area .total {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 20px 0;
+}
+
+.menu-button-area {
+    padding-top: 32px;
+}
+
+.menu-button-area a {
+    padding: 14px 88px;
+}
+
+.first-image {
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    object-fit: contain;
+    height: 182px;
+}
+
+.second-image {
+    position: absolute;
+    top: 28%;
+    left: 34%;
+    width: 178px;
+    object-fit: contain;
+}
+
+.third-image {
+    position: absolute;
+    top: 40%;
+    left: 54%;
+    object-fit: contain;
+    width: 147px;
+}
+
+.fourth-image {
+    position: absolute;
+    top: 20%;
+    left: 78%;
+    object-fit: contain;
+    height: 104px;
+}
+
+.sixth-image {
+    position: absolute;
+    top: 48%;
+    left: 70%;
+    object-fit: contain;
+    height: 182px;
+}
+
+.seventh-image {
+    position: absolute;
+    top: 56%;
+    left: 22%;
+    object-fit: contain;
+    height: 104px;
+}
+
+.new-header-product-area-2 {
+    background-image: url(https://www.prorepeater.com/public/images/white-brick-wall-textures-background%202.svg);
+}
+
+.website-2.header-product-area-2.last-header-part {
+    padding: 44px 40px 40px 40px;
+    margin: 0 80px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none
+}
+
+.accordion-item {
+    /*background-color: #fff;*/
+    border: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+}
+
+.text-accardion-part {
+    font-size: 14px !important;
+}
+
+.accordion-body {
+    padding: 10px 20px 16px;
+}
