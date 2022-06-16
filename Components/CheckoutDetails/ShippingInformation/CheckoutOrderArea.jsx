@@ -12,7 +12,7 @@ const CheckoutOrderArea = ({info_1, info_2}) => {
     let bonuses = useSelector(selectBonuses);
     let dispatch = useDispatch();
     let total = summary.price;
-gi
+
     let [coupon, setCoupon] = useState('')
     let [req, setReq] = useState("");
     let [tr, setTr] = useState(false);
